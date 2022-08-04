@@ -11,11 +11,14 @@ public class ParenthesesBalance {
 		
 		for(int i=0;i<casos;i++) {
 			
-		
-		String secuencia=sc.nextLine();
-		
+		String secuencia=sc.next();
+		secuencia.isEmpty();
 		int op=secuencia.length() ;
 		
+		if(op==0) {
+			System.out.println("Yes");
+			
+		}
 		if(op %2==0) {
 			
 			System.out.println("Yes");
