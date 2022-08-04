@@ -12,8 +12,7 @@ public class Url {
 		int casos=sc.nextInt();
 		if(casos<=20) {
 		for(int i=1;i<=casos;i++) {
-		
-		String def="";
+	
 		String url=sc.next();
 		String[] parts = url.split(":");  
 		String compl=parts[1];
